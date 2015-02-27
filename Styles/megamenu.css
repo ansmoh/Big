@@ -48,7 +48,7 @@ TABLE OF CONTENTS
 }
 	.megamenu li {
 		float:left;
-		margin:0 12px 0 0;
+		/* margin:0 12px 0 0; */
 		
 	}
 		.megamenu li:hover, .active {
@@ -65,7 +65,7 @@ TABLE OF CONTENTS
 			text-decoration:none;
 			display:block;
 			/* padding: 16px 15px 16px 15px; */
-			padding:5px 5px;
+			padding:4px 4px;
 		}
 		.megamenu li:hover a {
 			color:#000;
@@ -141,7 +141,7 @@ TABLE OF CONTENTS
 	width: 792px;
 	padding:24px 0 10px 0;
 	left:-9999em;
-	top:32px;
+	top:30px;
 	border:1px solid #1b1b1b;
 	border-top:none;
 	background:none repeat scroll 0 0 rgb(230, 229, 216) !important;
@@ -149,6 +149,27 @@ TABLE OF CONTENTS
 	-moz-border-radius: 0 0 4px 4px;
 	border-radius: 0 0 4px 4px;
 }
+/* 
+.megamenu li .fullwidth {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 rgb(230, 229, 216) !important;
+    border-color: -moz-use-text-color #1b1b1b #1b1b1b;
+    border-image: none;
+    border-radius: 0 0 4px 4px;
+    border-right: 1px solid #1b1b1b;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    float: left;
+    left: -9999em;
+    margin: 0 auto 0 14.2em;
+    max-width: 792px;
+    padding: 24px 0 10px;
+    position: fixed;
+}
+ */
 .megamenu li:hover .fullwidth {
 	display: block;
 	z-index:9998;
@@ -249,7 +270,7 @@ TABLE OF CONTENTS
 }
 .megamenu p {
 	font-size:12px; 
-	line-height:21px; 
+	line-height:17px; 
 	margin-bottom:5px;
 	margin-left:10px;
 }
@@ -266,7 +287,7 @@ TABLE OF CONTENTS
 .megamenu h4, 
 .megamenu h5, 
 .megamenu h6 {
-	margin-bottom:12px;
+	margin-bottom:5px;
 }
 .megamenu h1 {
 	font-size:36px;

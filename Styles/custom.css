@@ -25,6 +25,14 @@
     float: right;
     width: 18%;
 }
+.Left {
+        width:18% !important;
+        background:#e2e2e2;
+        padding:5px;
+}
+.LayoutColumn1 {width:62% !important;}
+
+.Left h4 {background:#9a967f;padding:5px;}
 
 .homeimg1 > img {width: 100%;}
 .footer-main {background: none repeat scroll 0 0 rgb(230, 229, 216) !important;}
@@ -166,3 +174,8 @@ h3.Socialicon_rgt {
 .close:focus{
     text-decoration:none;
 }
+.one-quarter {width:20%;}
+.footer-main a {
+    color: #464646 !important;
+}
+
