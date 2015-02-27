@@ -736,7 +736,7 @@ ul.side-menu > li {
 .Block.banner_category_page_top,
 .Block.banner_brand_page_top,
 .Block.banner_search_page_top {
-    position: relative;
+    /*position: relative;*/
     z-index: 0;
 }
 
@@ -3057,7 +3057,7 @@ visibility: hidden;isibility: hidden;
 }
 
 .PageMenu h4 {
-    display: none !important;
+    /*display: none !important;*/
 }
 
 #ModalOverlay {

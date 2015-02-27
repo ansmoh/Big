@@ -4,7 +4,7 @@
         <div class="page">
             %%Panel.Header%%
             <div class="main">
-                <div class="inner">
+                <div class="inner" style="position: relative;">
                     %%Panel.WrapperBanner%%
                     %%Banner.TopBanner%%
                     <div class="Content Widest" id="LayoutColumn1">
@@ -12,28 +12,35 @@
                         <div class="homeimg1">
                          <img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg1.png">
                          </div>
+                        
                         <div class="home_imgs">
-                         <div class="left_img2">
-							<a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg2.jpg?t=1424819049"></a>
-						</div>
-						<div class="right_img3">
-							<a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg3.jpg?t=1424819053"></a>
-							<a href="#"><img  id="right_img4" src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg4.jpg?t=1424819054"></a>
-						</div>
-						</div>
+
+<div class="left_img2">
+    <a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg2.jpg?t=1424819049"></a>
+</div>
+
+<div class="right_img3">
+    <a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg3.jpg?t=1424819053"></a>
+    <a href="#"><img  id="right_img4" src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg4.jpg?t=1424819054"></a>
+</div>
+
+</div>
                         <div class="left_img5">
                             <a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg5.jpg?t=1424819058"></a>
-						</div>
+</div>
                         <div class="home_imgs">
-						<div class="left_img6">
-							<a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg6.jpg?t=1424824289"></a>
-						</div>
-							<div class="right_img7">
-								<a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg7.jpg?t=1424824293"></a>
-							</div>
-						</div>                  
-                       %%Discount.FreeShippingEligibility%%
-                        %%Panel.HomeFeaturedProducts%%
+<div class="left_img6">
+    <a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg6.jpg?t=1424824289"></a>
+</div>
+<div class="right_img7">
+    <a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/homeimg7.jpg?t=1424824293"></a>
+</div>
+</div>
+                        
+                        
+                        
+                        %%Discount.FreeShippingEligibility%%
+                        <!--%%Panel.HomeFeaturedProducts%%-->
                         %%Panel.SideTopSellers%%
                         
                         %%Banner.BottomBanner%%
@@ -45,11 +52,53 @@
                            <div class="content_rvi">
                             <p>You have no recently viewed items.</p>
                             </div>
-                          </div>     
-                    </div>   
+                          </div>
+                        
+                          <div class="rgtside11">
+<h3 class="Socialicon_rgt">Social Media</h3>
+<p>The Cabela's Community is growing fast - join in!</p>
+<ul class="socialMediargt">
+        <li><a target="_blank" href="https://www.facebook.com"><img width="25" height="25" title="Facebook" alt="Facebook" src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/facebookrgt.png"></a>
+        </li>
+        <li><a target="_blank" href="http://www.youtube.com"><img width="25" height="25" title="YouTube" alt="YouTube" src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/youtubergt.png"></a>
+        </li>
+        <li><a target="_blank" href="https://twitter.com"><img width="25" height="25" title="Twitter" alt="Twitter" src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/twitterrgt.png"></a>
+        </li>
+        <li><a target="_blank" href="http://pinterest.com"><img width="25" height="25" title="Pinterest" alt="Pinterest" src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/pinterestrgt.png"></a>
+    </li>
+</ul>
+<hr>
+                              <div class="coupansrgt">
+                                  <a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/promo-1e.jpg"></a>
+</div>
+
+<div class="clubrgt">
+    <a href="#"><img src="https://cdn3.bigcommerce.com/s-hnmse/product_images/uploaded_images/f-123014-hp-acquisition-rra2.jpg"></a>
+</div>
+
+                         </div>
+                       
+                    </div>
+                    
+                    
+                    
                 </div>
             </div>
             %%Panel.Footer%%
         </div>
     </body>
 </html>
+
+<script type="text/javascript">
+$(function(){
+  $('#lightpopup').click(function(e){
+    e.preventDefault();
+    $('#globalPromoPopup').show();
+  });
+
+  $('.close').click(function(e){
+    e.preventDefault();
+    $('#globalPromoPopup').hide();
+  });
+});
+</script>​
