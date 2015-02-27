@@ -3,10 +3,11 @@
 #Header .inner {
     background: none repeat scroll 0 0 transparent;
 }
-.TopMenu, .TopMenu a {color:#333 !important; font-size:13px !important;}
+.TopMenu, .TopMenu a {color:#333 !important; font-size:12px !important;}
 .PageMenu .sf-menu > li > a {color:#fff !important;}
-.TopMenu ul {padding-right: 45px !important;}
-.TopMenu li {padding: 0px 20px !important;text-decoration:underline;}
+/*.TopMenu ul {padding-right: 45px !important;}*/
+.TopMenu li {padding: 0px 24px !important;text-decoration:underline;margin:0px 6px !important;}
+.TopMenu li:last-child {padding:0px 30px !important;}
 .con_sign {float: right;width: 18%;}
 #SearchForm {float: left !important;width:80% !important; margin:2px;}
 #SearchForm input {height:20px !important;line-height:22px !important;}
@@ -63,3 +64,23 @@
     width: auto;
 }
 
+.home_imgs {
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+}
+.left_img2 {
+    float: left;
+    width: 51%;
+}
+.right_img3 {
+    float: left;
+    width: 49%;
+}
+#right_img4 {margin-top: 15px;}
+.left_img5 {float:left; width:100%; margin-top: 10px;}
+.left_img5 img {width: 99.4%;}
+.left_img6 {
+float: left;
+width: 50%;
+}
