@@ -83,7 +83,7 @@ Please remember to replicate your changes in init.less, or just make your change
 #SearchForm .Button,
 #SearchForm input.Textbox,
 #SearchForm {
-  border: 1px solid #e3e3e3;
+  border: 1px solid #b8b8b8;
   background-color: #fff;
 }
 .page {
@@ -275,7 +275,7 @@ a.alt,
   border-bottom: 4px solid #999999;
 }
 .icon-add {
-  background: #999999 url("../images/add.png") no-repeat scroll 50% 50%;
+  background: #999999 url("%%GLOBAL_TPL_PATH%%/images/add.png") no-repeat scroll 50% 50%;
 }
 h1,
 .h1,
@@ -383,7 +383,7 @@ div.uploader span.action {
 .footer-main > .inner,
 .footer-links > .inner,
 .newsletter-subscription > .inner {
-  max-width: 1000px;
+  max-width: 980px;
   width: 90%;
 }
 #home .ProductList li,
